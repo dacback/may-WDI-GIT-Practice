@@ -1,0 +1,21 @@
+body{
+	background-color: black;
+	color:#FFFFFF;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+.content {
+	display:flex;
+	flex-flow: row wrap;
+	justify-content:space-around;
+	align-items: center;
+	width:1200px;
+	margin:25px auto;	
+}
+
+.colors {
+	width:375px;
+	height:375px;
+}
