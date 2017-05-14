@@ -1,11 +1,22 @@
 {
   "name": "git_exercise",
   "version": "1.0.0",
-  "description": "first classroom git exercise",
+  "description": "\"first classroom git exercise\"",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dacback/may-WDI-GIT-Practice.git"
+  },
   "author": "cdb",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dacback/may-WDI-GIT-Practice/issues"
+  },
+  "homepage": "https://github.com/dacback/may-WDI-GIT-Practice#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
 }
